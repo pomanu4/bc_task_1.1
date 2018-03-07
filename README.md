@@ -5,7 +5,8 @@ create database BC_db;
 use  BC_db;
 у файлі за шляхом  Task-1\src\main\resources\META-INF\persistence.xml змініть поля
 
-property name="javax.persistence.jdbc.user" value="** для вашої БД**"/ 
+property name="javax.persistence.jdbc.user" value="** для вашої БД**"
+
 property name="javax.persistence.jdbc.password" value="** для вашої БД**"/
 
 клас Init.java заповнить базу значеннями при старті програми 
