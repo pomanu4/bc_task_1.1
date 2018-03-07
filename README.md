@@ -14,5 +14,8 @@ property name="javax.persistence.jdbc.user" value="** для вашої БД**"
 property name="javax.persistence.jdbc.password" value="** для вашої БД**"/
 
 клас Init.java заповнить базу значеннями при старті програми 
-перед повторним запуском програми в класі MainClass закоментуйте стрічку init.initDataBase(); 
+
+перед повторним запуском програми в класі MainClass закоментуйте стрічку init.initDataBase();
+
 для уникнення повторного заповнення базу значеннями
+
